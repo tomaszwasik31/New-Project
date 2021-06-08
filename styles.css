@@ -12,7 +12,11 @@ body {
   background: #f7f5f0;
 }
 /* Link Styles */
+.photo{
+  width: 100%;
 
+
+}
 a {
   text-decoration: none;
   color: #999;
@@ -23,7 +27,7 @@ a:hover {
 
 /* Section Styles */
 
-.main-nav {
+nav {
   width: 100%;
   background: black;
   min-height: 30px;
@@ -72,6 +76,7 @@ header .profile-image {
   border-radius: 50%;
   border: 3px solid white;
   transition: all .5s;
+  transform: rotate(1turn);
 }
 header .profile-image:hover {
   transform: scale(1.2) rotate(5deg);
@@ -89,7 +94,7 @@ header .profile-image:hover {
   background-color: #222;
   color: yellow;
 }
-.card {
+article {
   margin: 30px;
   padding: 20px 40px 40px;
   max-width: 500px;
@@ -99,7 +104,7 @@ header .profile-image:hover {
   border-radius: 6px;
   transition: all .5s;
 }
-.card:hover {
+article:hover {
   border-color: #ff99ff;
 }
 
